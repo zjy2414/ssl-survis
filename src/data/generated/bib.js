@@ -77,22 +77,6 @@
         "volume": "43",
         "year": "2021"
     },
-    "Liu2025": {
-        "abstract": "Self-supervised learning (SSL) automates the extraction and interpretation of histopathology features on unannotated hematoxylin-eosin-stained whole slide images (WSIs). We train an SSL Barlow Twins encoder on 435 colon adenocarcinoma WSIs from The Cancer Genome Atlas to extract features from small image patches (tiles). Leiden community detection groups tiles into histomorphological phenotype clusters (HPCs). HPC reproducibility and predictive ability for overall survival are confirmed in an independent clinical trial (N",
-        "author": "Liu, Bojing and Polack, Meaghan and Coudray, Nicolas and Claudio Quiros, Adalberto and Sakellaropoulos, Theodore and Le, Hortense and Karimkhan, Afreen and Crobach, Augustinus S. L. P. and van Krieken, J. Han J. M. and Yuan, Ke and Tollenaar, Rob A. E. M. and Mesker, Wilma E. and Tsirigos, Aristotelis",
-        "copyright": "https://creativecommons.org/licenses/by/4.0",
-        "doi": "10.1038/s41467-025-24605-8",
-        "journal": "Nature Communications",
-        "keywords": "type:self_supervised_learning, medical_imaging, histopathology",
-        "language": "en",
-        "number": "1",
-        "pages": "2328",
-        "publisher": "Springer Nature",
-        "title": "Self-Supervised Learning Reveals Clinically Relevant Histomorphological Patterns for Therapeutic Strategies in Colon Cancer",
-        "type": "article",
-        "volume": "16",
-        "year": "2025"
-    },
     "Mascolini2022": {
         "abstract": "MOTIVATION: Computer-aided analysis of biological images typically requires extensive training on large-scale annotated datasets, which is not viable in many situations. In this paper, we present Generative Adversarial Network Discriminator Learner (GAN-DL), a novel self-supervised learning paradigm based on the StyleGAN2 architecture, which we employ for self-supervised image representation learning in the case of fluorescent biological images. RESULTS: We show that Wasserstein Generative Adversarial Networks enable high-throughput compound screening based on raw images. We demonstrate this by classifying active and inactive compounds tested for the inhibition of SARS-CoV-2 infection in two different cell models: the primary human renal cortical epithelial cells (HRCE) and the African green monkey kidney epithelial cells (VERO). In contrast to previous methods, our deep learning-based approach does not require any annotation, and can also be used to solve subtle tasks it was not specifically trained on, in a self-supervised manner. For example, it can effectively derive a dose-response curve for the tested treatments.",
         "author": "Mascolini, Alessio and Cardamone, Dario and Ponzio, Francesco and Di Cataldo, Santa and Ficarra, Elisa",
@@ -107,6 +91,15 @@
         "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04823-7",
         "volume": "23",
         "year": "2022"
+    },
+    "Mundhenk_2018_CVPR": {
+        "author": "Mundhenk, T. Nathan and Ho, Daniel and Chen, Barry Y.",
+        "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": "type:self_supervised_learning, context_based_learning",
+        "month": "June",
+        "title": "Improvements to Context Based Self-Supervised Learning",
+        "type": "InProceedings",
+        "year": "2018"
     },
     "Zbontar2021": {
         "abstract": "Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn embeddings which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the embedding vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors. The method is called Barlow Twins, owing to neuroscientist H. Barlow\u2019s redundancy-reduction principle applied to a pair of identical networks. Barlow Twins does not require large batches nor asymmetry between the network twins such as a predictor network, gradient stopping, or a moving average on the weight updates. Intriguingly it benefits from very high-dimensional output vectors. Barlow Twins outperforms previous methods on ImageNet for semi-supervised classification in the low-data regime, and is on par with current state of the art for ImageNet classification with a linear classifier head, and for transfer tasks of classification and object detection.",
