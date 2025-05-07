@@ -101,6 +101,14 @@
         "type": "InProceedings",
         "year": "2018"
     },
+    "OpenAI2018": {
+        "abstract": "We've obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we're also releasing. Our approach is a combination of two existing ideas: transformers and unsupervised pre-training. These results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well; this is an idea that many have explored in the past, and we hope our result motivates further research into applying this idea on larger and more diverse datasets.",
+        "author": "Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever",
+        "howpublished": "\\url{https://openai.com/research/language-unsupervised}",
+        "keywords": "type:unsupervised_learning, nlp, transformers",
+        "title": "Improving Language Understanding with Unsupervised Learning",
+        "type": "misc"
+    },
     "Zbontar2021": {
         "abstract": "Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn embeddings which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the embedding vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors. The method is called Barlow Twins, owing to neuroscientist H. Barlow\u2019s redundancy-reduction principle applied to a pair of identical networks. Barlow Twins does not require large batches nor asymmetry between the network twins such as a predictor network, gradient stopping, or a moving average on the weight updates. Intriguingly it benefits from very high-dimensional output vectors. Barlow Twins outperforms previous methods on ImageNet for semi-supervised classification in the low-data regime, and is on par with current state of the art for ImageNet classification with a linear classifier head, and for transfer tasks of classification and object detection.",
         "author": "Zbontar, Jure and Jing, Li and Misra, Ishan and LeCun, Yann and Deny, Stephane",
@@ -128,12 +136,5 @@
         "url": "https://proceedings.mlr.press/v182/zhang22a.html",
         "volume": "182",
         "year": "2022"
-    },
-    "noauthor_undated": {
-        "abstract": "We've obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we're also releasing. Our approach is a combination of two existing ideas: transformers and unsupervised pre-training. These results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well; this is an idea that many have explored in the past, and we hope our result motivates further research into applying this idea on larger and more diverse datasets.",
-        "howpublished": "\\url{https://openai.com/research/language-unsupervised}",
-        "keywords": "type:unsupervised_learning, nlp, transformers",
-        "title": "Improving Language Understanding with Unsupervised Learning",
-        "type": "misc"
     }
 };
