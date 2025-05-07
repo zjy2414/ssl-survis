@@ -1,4 +1,4 @@
-# SurVis - Visual Literature Browser
+# SurVis - Self-supervised Learning Literature Visualization
 
 ![Screenshot](/doc/survis.png)
 
